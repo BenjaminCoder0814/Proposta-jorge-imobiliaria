@@ -151,7 +151,7 @@ export default function FinanceiroPage() {
         ) : (
           <div className="divide-y divide-blue-900/30 max-h-96 overflow-y-auto scrollbar-thin">
             {filtered.map((p, i) => {
-              const sc = statusConfig[p.status]
+              const sc = statusConfig[p.status] ?? { label: p.status, color: '#94a3b8', icon: Clock }
               const Icon = sc.icon
               const aluguel = alugueis.find(a => a.id === p.aluguelId)
               return (

@@ -98,7 +98,7 @@ export default function ClientesPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
           <AnimatePresence>
             {filtered.map((c, i) => {
-              const tipo = tipoConfig[c.tipo]
+              const tipo = tipoConfig[c.tipo] ?? { label: c.tipo, color: '#94a3b8', bg: 'rgba(148,163,184,0.1)' }
               const initials = c.nome.split(' ').map(n => n[0]).slice(0, 2).join('').toUpperCase()
               const colors = ['#3b82f6', '#8b5cf6', '#10b981', '#f59e0b', '#ec4899']
               const color = colors[c.nome.charCodeAt(0) % colors.length]
