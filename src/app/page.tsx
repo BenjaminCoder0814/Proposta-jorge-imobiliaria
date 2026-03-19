@@ -249,7 +249,7 @@ export default function LandingPage() {
           {[
             { val: 8, suffix: '', label: 'Módulos no sistema', color: '#3b82f6' },
             { val: 3, suffix: 'h', label: 'Horas economizadas/dia', color: '#10b981' },
-            { val: 250, prefix: 'R$', label: 'Suporte mensal', color: '#f59e0b' },
+            { val: 5000, prefix: 'R$', label: 'Valor do projeto', color: '#f59e0b' },
             { val: 100, suffix: '%', label: 'Personalizado para você', color: '#8b5cf6' },
           ].map(item => (
             <motion.div key={item.label} {...fadeUp(0)}>
@@ -605,7 +605,7 @@ export default function LandingPage() {
               </div>
               <div className="mb-6">
                 <div className="text-5xl font-black text-white mb-1">
-                  R$ <span className="text-violet-400">2.000</span>
+                  R$ <span className="text-violet-400">5.000</span>
                 </div>
                 <div className="text-sm text-slate-400">valor único de implantação</div>
                 <div className="mt-3 p-3 rounded-xl"
