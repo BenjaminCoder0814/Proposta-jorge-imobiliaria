@@ -1,0 +1,42 @@
+[
+  {
+    "id": "venda-001",
+    "imovelId": "imovel-003",
+    "compradorId": "cli-006",
+    "vendedorNome": "Jorge Sousa",
+    "valorVenda": 85500,
+    "comissaoPercent": 5,
+    "comissaoValor": 4275,
+    "dataContrato": "2024-09-15",
+    "dataEscritura": "2024-10-20",
+    "status": "concluida",
+    "observacoes": "Comprador arquiteto, negociou 10% de desconto. Venda concluida com escritura lavrada.",
+    "createdAt": "2024-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "venda-002",
+    "imovelId": "imovel-007",
+    "compradorId": "cli-009",
+    "vendedorNome": "Jorge Sousa",
+    "valorVenda": 275000,
+    "comissaoPercent": 5,
+    "comissaoValor": 13750,
+    "dataContrato": "2024-11-01",
+    "status": "contrato_assinado",
+    "observacoes": "Compradora Patricia, financiamento Caixa aprovado. Aguardando escritura.",
+    "createdAt": "2024-11-01T10:00:00.000Z"
+  },
+  {
+    "id": "venda-003",
+    "imovelId": "imovel-011",
+    "compradorId": "cli-004",
+    "vendedorNome": "Jorge Sousa",
+    "valorVenda": 265000,
+    "comissaoPercent": 5,
+    "comissaoValor": 13250,
+    "dataContrato": "2024-12-01",
+    "status": "em_andamento",
+    "observacoes": "Comprador Roberto, entrada paga. Financiamento em analise no Bradesco.",
+    "createdAt": "2024-12-01T10:00:00.000Z"
+  }
+]

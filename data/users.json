@@ -1,0 +1,4 @@
+[
+  {"id":"user-001","nome":"Jorge Sousa","username":"jorge","password":"jorge123","role":"admin","email":"jorge@jorgesousaimoveis.com.br","telefone":"(19) 99800-1234","ativo":true,"createdAt":"2024-01-01T00:00:00.000Z"},
+  {"id":"user-002","nome":"Maria Souza","username":"maria","password":"maria123","role":"funcionaria","email":"maria@jorgesousaimoveis.com.br","telefone":"(19) 99800-5678","ativo":true,"createdAt":"2024-06-01T00:00:00.000Z"}
+]
