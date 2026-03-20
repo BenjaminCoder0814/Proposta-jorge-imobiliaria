@@ -61,8 +61,8 @@ export default function Sidebar() {
           <img src="/logo.png" alt="Logo" className="w-8 h-8 object-contain" />
         </div>
         <div className="min-w-0">
-          <div className="text-sm font-bold text-white leading-tight truncate">Jorge Sousa Imóveis</div>
-          <div className="text-[10px] text-slate-500">CRECI-SP 12345</div>
+          <div className="text-sm font-bold text-white leading-tight truncate">ERP Imobiliário</div>
+          <div className="text-[10px] text-slate-500">Sistema de Gestão</div>
         </div>
       </div>
 
@@ -137,8 +137,8 @@ export default function Sidebar() {
             <img src="/logo.png" alt="Logo" className="w-7 h-7 object-contain" />
           </div>
           <div className="min-w-0">
-            <div className="text-sm font-semibold text-white leading-tight">Jorge Sousa</div>
-            <div className="text-[11px] text-slate-500 truncate">Admin • CRECI-SP 12345</div>
+            <div className="text-sm font-semibold text-white leading-tight">Administrador</div>
+            <div className="text-[11px] text-slate-500 truncate">Admin</div>
           </div>
         </div>
 

@@ -149,7 +149,7 @@ export default function LoginPage() {
                 }}
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/logo.png" alt="Jorge Sousa Imóveis" className="w-20 h-20 object-contain" />
+                <img src="/logo.png" alt="ERP Imobiliário" className="w-20 h-20 object-contain" />
               </div>
               <motion.div
                 className="absolute -top-1 -right-1 w-6 h-6 rounded-full flex items-center justify-center"
@@ -167,7 +167,7 @@ export default function LoginPage() {
               transition={{ delay: 0.25 }}
               className="text-2xl font-bold text-gradient-blue text-center"
             >
-              Jorge Sousa Imóveis
+              ERP Imobiliário
             </motion.h1>
 
             <motion.p

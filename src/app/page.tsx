@@ -122,10 +122,12 @@ export default function LandingPage() {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl flex items-center justify-center font-black text-white text-sm"
-              style={{ background: 'linear-gradient(135deg, #1d4ed8, #7c3aed)' }}>JS</div>
+              style={{ background: 'linear-gradient(135deg, #1d4ed8, #7c3aed)' }}>
+              <LayoutDashboard className="w-5 h-5" />
+            </div>
             <div>
-              <div className="text-sm font-bold text-white leading-none">Jorge Sousa</div>
-              <div className="text-[10px] text-slate-400">Sistemas Imobiliários</div>
+              <div className="text-sm font-bold text-white leading-none">ERP Imobiliário</div>
+              <div className="text-[10px] text-slate-400">Sistema de Gestão</div>
             </div>
           </div>
 
@@ -249,7 +251,7 @@ export default function LandingPage() {
           {[
             { val: 8, suffix: '', label: 'Módulos no sistema', color: '#3b82f6' },
             { val: 3, suffix: 'h', label: 'Horas economizadas/dia', color: '#10b981' },
-            { val: 5000, prefix: 'R$', label: 'Valor do projeto', color: '#f59e0b' },
+            { val: 99, suffix: '%', label: 'Satisfação garantida', color: '#f59e0b' },
             { val: 100, suffix: '%', label: 'Personalizado para você', color: '#8b5cf6' },
           ].map(item => (
             <motion.div key={item.label} {...fadeUp(0)}>
@@ -498,12 +500,12 @@ export default function LandingPage() {
                     <div className="w-2.5 h-2.5 rounded-full bg-yellow-500" />
                     <div className="w-2.5 h-2.5 rounded-full bg-green-500" />
                   </div>
-                  <div className="flex-1 text-center text-[10px] text-slate-500 truncate">jorgeimob.com.br</div>
+                  <div className="flex-1 text-center text-[10px] text-slate-500 truncate">imobiliaria.com.br</div>
                 </div>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/site-antigo.png"
-                  alt="Site atual do Jorge Sousa Imóveis"
+                  alt="Site imobiliário antes da modernização"
                   className="w-full object-cover object-top"
                 />
               </div>
@@ -604,14 +606,11 @@ export default function LandingPage() {
                 <p className="text-sm text-slate-400">Gestão completa da sua imobiliária com 8 módulos integrados</p>
               </div>
               <div className="mb-6">
-                <div className="text-5xl font-black text-white mb-1">
-                  R$ <span className="text-violet-400">5.000</span>
-                </div>
-                <div className="text-sm text-slate-400">valor único de implantação</div>
+                <div className="text-4xl font-black text-violet-400 mb-1">Sob Consulta</div>
+                <div className="text-sm text-slate-400">valor conforme escopo e personalização</div>
                 <div className="mt-3 p-3 rounded-xl"
                   style={{ background: 'rgba(124,58,237,0.1)', border: '1px solid rgba(124,58,237,0.25)' }}>
-                  <div className="text-xl font-bold text-violet-300">+ R$ 250<span className="text-sm font-normal text-slate-400">/mês</span></div>
-                  <div className="text-xs text-slate-500 mt-0.5">manutenção, suporte e melhorias contínuas</div>
+                  <div className="text-sm text-slate-400">Manutenção e suporte mensal incluso</div>
                 </div>
               </div>
               <div className="space-y-2.5 mb-8 flex-1">
@@ -716,7 +715,7 @@ export default function LandingPage() {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
             <div className="text-sm text-slate-400">
-              Login: <code className="text-slate-300 bg-white/5 px-2 py-1 rounded-lg">jorge / jorge123</code>
+              Acesso demo liberado — explore todos os módulos
             </div>
           </motion.div>
         </div>
@@ -729,10 +728,12 @@ export default function LandingPage() {
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 rounded-xl flex items-center justify-center font-black text-white text-sm"
-                  style={{ background: 'linear-gradient(135deg, #1d4ed8, #7c3aed)' }}>JS</div>
+                  style={{ background: 'linear-gradient(135deg, #1d4ed8, #7c3aed)' }}>
+                  <LayoutDashboard className="w-5 h-5" />
+                </div>
                 <div>
-                  <div className="text-sm font-bold text-white">Jorge Sousa</div>
-                  <div className="text-[10px] text-slate-500">Sistemas Imobiliários</div>
+                  <div className="text-sm font-bold text-white">ERP Imobiliário</div>
+                  <div className="text-[10px] text-slate-500">Sistema de Gestão</div>
                 </div>
               </div>
               <p className="text-sm text-slate-500 leading-relaxed">
@@ -754,15 +755,15 @@ export default function LandingPage() {
               <div className="flex items-center gap-3 px-4 py-3 rounded-xl"
                 style={{ background: 'rgba(59,130,246,0.06)', border: '1px solid rgba(59,130,246,0.15)' }}>
                 <div>
-                  <div className="text-sm font-semibold text-slate-300">(19) 97172-1217</div>
-                  <div className="text-xs text-slate-500">Entre em contato pelo WhatsApp</div>
+                  <div className="text-sm font-semibold text-slate-300">Entre em contato</div>
+                  <div className="text-xs text-slate-500">Solicite um orçamento personalizado</div>
                 </div>
               </div>
             </div>
           </div>
           <div className="pt-6 text-center" style={{ borderTop: '1px solid rgba(59,130,246,0.06)' }}>
             <p className="text-xs text-slate-600">
-              © {new Date().getFullYear()} Jorge Sousa Sistemas Imobiliários · Todos os direitos reservados
+              © {new Date().getFullYear()} ERP Imobiliário · Todos os direitos reservados
             </p>
           </div>
         </div>
